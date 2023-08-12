@@ -102,7 +102,7 @@ function List() {
       </div>
       <div>
       {items.length === 0 ? (
-          <p>No items available.</p>
+          <p>Login and Start Adding Items</p>
         ) : (
           <ul>
             {items.map((item, index) => (
