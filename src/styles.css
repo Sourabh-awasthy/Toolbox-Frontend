@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  background: #4e54c8 !important;
+  margin:2%;
+  padding-left:10%;
+  padding-right: 10%;
+  border-radius: 25px;
+
+}
+.convertor{
+  margin:1.5rem;
+  border-radius: 5px;
+}
+.resultOf{
+  border:2px solid;
+  font-size: larger;
+  box-shadow: 5px 5px 5px 5px blueviolet;
+  display: block;
+  
+}
+.Canvahome{
+  margin-left:10px;
+}
+.swipe{
+  position:fixed;
+  bottom:7%;
+
+  
+}
+.calciButton{
+  border:1px dashed;
+  border-radius: 50%; 
+  margin:10px;
+  width: 40px;
+ font-size: 30px;
+}
+.cardContainer{
+  
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  color: white !important;
+  margin-right: auto;
+}
+.navbar-brand:hover {
+  color: black !important;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.card {
+  margin: 7%;
+  background-color: lightblue !important;
+  width: 87%;
+
+  align-items: center;
+}
+.card-img-top {
+  margin: 6px !important;
+  height: 220px !important;
+  width: 90% !important;
+  border-radius: 50% !important;
+}
+
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #ffeaa7;
+}
+button span {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+}
