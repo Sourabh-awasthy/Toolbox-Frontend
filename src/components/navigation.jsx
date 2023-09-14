@@ -51,7 +51,7 @@ const NavigationBar = (props) => {
               <NavLink href="https://www.linkedin.com/in/sourabh-awasthy-38203525a/">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/Sourabh-awasthy/mern-1">
+              <NavLink href="https://github.com/Sourabh-awasthy/frontendd-mern">
                 GitHub
               </NavLink>
             </NavItem>
